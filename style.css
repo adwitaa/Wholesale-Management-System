@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    background-color: #f8faf9; /* Light background color */
+    font-family: Arial, sans-serif; /* Change font family */
+}
+
+/* Navbar Styles */
+.navbar {
+    border-bottom: 2px solid #eaff00; /* Add a border to the bottom of the navbar */
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #007bff; /* Blue border for cards */
+    border-radius: 0.5rem; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+/* Card Title Styles */
+.card-title {
+    color: #ff8400; /* Blue color for card titles */
+    font-weight: bold; /* Bold card titles */
+}
+
+/* Heading Styles */
+h2 {
+    color: #404034; /* Darker color for headings */
+    margin-top: 30px; /* Space above headings */
+}
+
+/* Loading Text Styles */
+#totalProducts, #totalOrders, #totalCustomers, 
+#inventoryList, #ordersList, #customersList {
+    font-style: italic; /* Italicize loading text */
+    color: #777d6c; /* Gray color for loading text */
+}
+
+/* Container Styles */
+.container {
+    padding: 20px; /* Add padding to container */
+    background-color: rgb(205, 255, 238); /* White background for main content */
+    border-radius: 0.5rem; /* Rounded corners for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Center align navbar items on small screens */
+    }
+}
